@@ -10,5 +10,5 @@ If you just want to get started:
 ```js
 !function(t,e,r){var s=t.createElement(e),n=t.getElementsByTagName(e)[0];
 s.async=1,s.src=r,n.parentNode.insertBefore(s,n)}(document,"script"
-,"https://cdn.rawgit.com/jtsternberg/instascript/master/instascript.js");
+,"https://cdn.rawgit.com/SethForsgren/instascript/master/instascript.js");
 ```
