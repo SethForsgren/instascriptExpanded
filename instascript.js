@@ -141,14 +141,14 @@ window.instasScript = window.instasScript || {};
 			$media = $( app.modalVideoSelector );
 		}
 
-		if ( $media.hasClass( 'instadone' ) ) {
-			return app.processNext();
-		}
-
 		// attempt by seth
 		var description = $media.attr('alt');
 		console.warn( description );
 		// end attempt
+
+		if ( $media.hasClass( 'instadone' ) ) {
+			return app.processNext();
+		}
 
 		if ( ! $media.length ) {
 			return app.processNext();
