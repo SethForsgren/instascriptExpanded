@@ -145,16 +145,16 @@ window.instasScript = window.instasScript || {};
 			return app.processNext();
 		}
 
-		if ( ! $media.length ) {
-			return app.processNext();
-		}
-
-		var src = $media.attr('src');
 		// attempt by seth
 		var description = $media.attr('alt');
 		console.warn( description );
 		// end attempt
 
+		if ( ! $media.length ) {
+			return app.processNext();
+		}
+
+		var src = $media.attr('src');
 
 		var haveIt = $.inArray( src, app.dowloaded );
 
