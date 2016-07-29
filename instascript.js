@@ -151,10 +151,8 @@ window.instasScript = window.instasScript || {};
 
 		var src = $media.attr('src');
 		// attempt by seth
-		var description = $media.attr('alt');
-		console.warn( description );
-
-
+		// var description = $media.attr('alt');
+		// console.warn( description );
 		// end attempt
 
 
