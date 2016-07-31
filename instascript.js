@@ -139,11 +139,12 @@ window.instasScript = window.instasScript || {};
 		var $media = $( app.modalImageSelector );
 		if ( ! $media.length ) {
 			$media = $( app.modalVideoSelector );
+			console.warn( "video")
 		}
 
 		// attempt by seth
-		var description = $media.attr('alt');
-		console.warn( description );
+		// var description = $media.attr('alt');
+		// console.warn( description );
 		// end attempt
 
 		if ( $media.hasClass( 'instadone' ) ) {
