@@ -218,7 +218,6 @@ window.instasScript = window.instasScript || {};
 		var hyperlink = document.createElement('a');
 		hyperlink.href = fileUrl;
 		hyperlink.target = '_blank';
-		// console.log( target ) // seth
 		hyperlink.download = fileName || fileUrl;
 
 		console.log( app.dowloaded.length + ') download', hyperlink.download );
