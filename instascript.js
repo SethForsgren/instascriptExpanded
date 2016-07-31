@@ -139,7 +139,7 @@ window.instasScript = window.instasScript || {};
 		var $media = $( app.modalImageSelector );
 		if ( ! $media.length ) {
 			$media = $( app.modalVideoSelector );
-			console.warn( "video")
+			// console.warn( " video ")
 		}
 
 		// attempt by seth
@@ -218,6 +218,7 @@ window.instasScript = window.instasScript || {};
 		var hyperlink = document.createElement('a');
 		hyperlink.href = fileUrl;
 		hyperlink.target = '_blank';
+		console.log( target ) // seth
 		hyperlink.download = fileName || fileUrl;
 
 		console.log( app.dowloaded.length + ') download', hyperlink.download );
